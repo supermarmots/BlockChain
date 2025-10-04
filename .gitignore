@@ -1,0 +1,60 @@
+# .gitignore for BlockChanin
+# 프로젝트를 GitHub에 올리기 전에 로컬/비밀/빌드 아티팩트 파일을 제외하기 위한 설정
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (민감 정보)
+.env
+.env.*
+.env.local
+
+# 빌드 결과물 / 배포용 디렉터리
+dist/
+build/
+coverage/
+
+# 로그 및 임시 파일
+logs/
+*.log
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Windows thumbnail cache
+ehthumbs.db
+
+# IDE / 편집기
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 에디터 백업 파일
+*~
+*.swp
+
+# 인증서 / 키
+*.pem
+*.key
+*.crt
+
+# Optional: 보안상 제외 권장 파일 (필요 시 주석 해제)
+# secret.json
+# credentials.json
+
+# 기타
+npm-debug.log
+yarn.lock
+
+# End of file
