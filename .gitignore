@@ -1,0 +1,96 @@
+# 🚫 Git 제외 파일 목록 - BlockChanin 프로젝트
+
+# ====================
+# Node.js 관련
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ====================
+# 환경 설정 파일 (민감 정보)
+# ====================
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ====================
+# 빌드 결과물
+# ====================
+dist/
+build/
+coverage/
+.nyc_output
+
+# ====================
+# Vite 개발 캐시 (자동 생성됨)
+# ====================
+.vite/
+node_modules/.vite/
+
+# ====================
+# 로그 및 임시 파일
+# ====================
+logs/
+*.log
+*.tmp
+*.temp
+*.cache
+
+# ====================
+# OS 생성 파일
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================
+# IDE / 편집기
+# ====================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ====================
+# 보안 관련 파일
+# ====================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ====================
+# 테스트 결과
+# ====================
+.jest/
+junit.xml
+
+# ====================
+# 기타
+# ====================
+*.tgz
+*.tar.gz
+.eslintcache
+.parcel-cache
