@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/supermarmots/BlockChanin#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "express": "^5.1.0"
   }

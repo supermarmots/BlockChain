@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const port = 4000;
 
 const { Blockchain, Transaction } = require("./blockchain");
 const myCoin = new Blockchain();
 
+app.use(cors());
 // POST 요청의 body를 json으로 파싱하기 위한 미들웨어
 app.use(express.json());
 
